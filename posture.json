@@ -1,0 +1,21 @@
+{
+    "session_duration_seconds": 3.28,
+    "frames_processed": 1340,
+    "valid_observations": 88,
+    "invalid_observations": 1252,
+    "good_posture_seconds": 0.0,
+    "bad_posture_seconds": 3.28,
+    "good_posture_percentage": 0.0,
+    "posture_breaks": 1,
+    "posture_score": 0,
+    "score_method": "Percentage of classified observation time in good posture",
+    "thresholds": {
+        "good_torso_angle_degrees": 12.0,
+        "bad_torso_angle_degrees": 18.0,
+        "good_head_ratio": 0.12,
+        "bad_head_ratio": 0.18,
+        "smoothing_seconds": 0.5,
+        "bad_confirmation_seconds": 1.5,
+        "good_confirmation_seconds": 1.0
+    }
+}
